@@ -169,7 +169,7 @@ version: "3"
 services:
   wenyan-server:
     image: caol64/wenyan-cli
-    command: server
+    command: serve
     ports:
       - "3000:3000"
     env_file:
